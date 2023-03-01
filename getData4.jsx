@@ -108,7 +108,7 @@ function App() {
     <Fragment>
       <form
         onSubmit={event => {
-          doFetch("http://hn.algolia.com/api/v1/search?query=${query}");
+          doFetch(`http://hn.algolia.com/api/v1/search?query=${query}`);
           event.preventDefault();
         }}
       >
