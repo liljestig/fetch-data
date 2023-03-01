@@ -42,6 +42,8 @@ function App() {
   );
 }
 // ========================================
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+const element = <App /
+root.render(element);
 
 //  // "https://hn.algolia.com/api/v1/search?query=redux"
