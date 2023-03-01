@@ -1,5 +1,6 @@
 # Fetch Data
-Developed using Visual Studio Code for Windows, learning how to create a simple fetch data web application using React.
+Developed using Visual Studio Code for Windows, learning how to create a simple web application that uses useEffect and useReduce to fetch online data.
+
 ## How to install
 Clone the repository and change directory to the deployment root directory, then execute the "http-server -c-1" command to start the application.
 ## Usage
