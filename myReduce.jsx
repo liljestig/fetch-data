@@ -54,5 +54,5 @@ const App = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const element = <App /
+const element = <App/>;
 root.render(element);
